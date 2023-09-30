@@ -2,7 +2,7 @@ from logic import print_winner, is_draw, get_computer_choice, get_player_choice
 
 
 def play_game():
-    """play the game"""
+
     player_choice = get_player_choice()
     computer_choice = get_computer_choice()
     if is_draw(player_choice, computer_choice):
